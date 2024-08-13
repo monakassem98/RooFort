@@ -1,0 +1,47 @@
+.services-section {
+  .cards-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+    overflow: hidden;
+    @media (max-width: 768px) {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cards {
+      cursor: pointer;
+      width: 300px;
+      h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      &:hover img {
+        transform: scaleX(-1);
+      }
+
+      &:hover h2 {
+        color: var(--yellow);
+      }
+    }
+
+    
+    .cd-1{
+      transform: translateX(-130%);
+    }
+    .cd-2{
+      transform: translateY(130%);
+    }
+    .cd-3{
+      transform: translateX(130%);
+    }
+  }
+}

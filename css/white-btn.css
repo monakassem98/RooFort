@@ -1,0 +1,20 @@
+.white-btn {
+  color: black;
+  background-color: white;
+  width: fit-content;
+  padding: 15px 25px;
+  margin-top: 20px;
+  position: relative;
+  right: -80%;
+  border-radius: 15px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow);
+  }
+
+  @media (max-width: 1270px) {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}

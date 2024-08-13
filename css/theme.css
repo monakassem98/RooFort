@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Playwrite HR Lijeva", cursive;
+
+  --logo-color: #021e9b;
+  --secondary-color: #666;
+  --tertiary-color: #eeeeee;
+
+  --text-color: rgb(77, 77, 77);
+
+  --link-hover: rgba(26, 26, 107, 0.863);
+
+  --yellow: #ffc55a;
+  --gray: #c0cdd1;
+
+  --title-shadow: "Rubik Doodle Shadow", system-ui;
+
+  --letter-rotate: 7deg;
+}
+
+* {
+  transition: 0.5s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  background-color: #021526;
+  color: white;
+}
+
+.cont {
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}

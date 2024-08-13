@@ -1,0 +1,126 @@
+.listing {
+  padding-bottom: 30px;
+  .list-upper-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    @media (max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    p {
+      width: 47%;
+      @media (max-width: 992px) {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .list-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 100px;
+    @media (max-width: 1270px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+    .id {
+      @media (max-width: 1270px) {
+        order: 2;
+        width: 90%;
+        text-align: center;
+      }
+      background-color: white;
+      color: black;
+      width: fit-content;
+      height: fit-content;
+      padding: 15px 25px;
+      border-radius: 15px;
+    }
+
+    .txt {
+      border-left: 1px solid rgba(128, 128, 128, 0.733);
+      padding-left: 15px;
+      width: 50%;
+      @media (max-width: 1270px) {
+        order: 3;
+        width: 90%;
+        border-left: none;
+      }
+      .status {
+        color: var(--yellow);
+      }
+
+      .name {
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+        &:hover {
+          color: var(--yellow);
+        }
+      }
+      .description {
+        margin-top: 20px;
+      }
+      .price {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .dollar {
+          font-size: 25px;
+        }
+        .rate {
+          border: 1px solid rgba(128, 128, 128, 0.733);
+          padding: 5px;
+        }
+      }
+
+      .details {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.733);
+        padding-bottom: 30px;
+        margin-top: 30px;
+        div {
+          width: calc(90% / 3);
+        }
+        img {
+          margin-right: 10px;
+        }
+
+        .bed {
+          border-right: 1px solid rgba(128, 128, 128, 0.733);
+        }
+
+        .bath {
+          border-right: 1px solid rgba(128, 128, 128, 0.733);
+        }
+      }
+    }
+    .img {
+      @media (max-width: 1270px) {
+        order: 1;
+        width: 90%;
+      }
+      overflow: hidden;
+      img {
+        @media (max-width: 1270px) {
+          width: 100%;
+        }
+        cursor: pointer;
+        &:hover {
+          transform: perspective(200px) translateZ(10px);
+        }
+      }
+    }
+  }
+}

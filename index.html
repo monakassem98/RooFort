@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css files  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/hero-section.css" />
+    <link rel="stylesheet" href="css/border-radius.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/counter.section.css" />
+    <link rel="stylesheet" href="css/title.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/service.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/listing.css" />
+    <link rel="stylesheet" href="css/white-btn.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>RooFort</title>
+  </head>
+  <body>
+    <!-- start header  -->
+    <header>
+      <div class="cont head">
+        <div class="logo">
+          <h1>
+            <span id="l1">R</span>
+            <span id="l2">O</span>
+            <span id="l3">O</span>
+            <span id="l5">F</span>
+            <span id="l6">O</span>
+            <span id="l7">R</span>
+            <span id="l8">T</span>
+          </h1>
+          <img src="images/logo-removebg-preview.png" alt="" />
+        </div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">properties</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="search">
+          <input type="text" placeholder="Search here..." />
+          <a class="yellow-btn" href="#">Search</a>
+        </div>
+        <i onclick="dropDownMenu()" class="fa fa-bars menu-icon"></i>
+        <div class="drop-down none">
+          <a href="#">Home</a>
+          <a href="#">properties</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- start hero  -->
+    <section class="hero-section">
+      <div class="cont hero">
+        <div class="background">
+          <div class="layout border-radius"></div>
+          <img class="border-radius" src="images/home-1.avif" alt="" />
+        </div>
+
+        <div class="text" id="text">
+          <h1>Top notch <br />living space</h1>
+          <p>
+            Bringing together a team with passion, dedication, and resources to
+            help our clients reach their buying and selling goals. We are with
+            you every step of the way.
+          </p>
+          <a class="yellow-btn" href="#">Explore Properties</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- start counter section  -->
+    <div class="counter-section">
+      <div class="cont">
+        <div class="counter">
+          <div class="count">
+            <div class="num" data-value="870">0</div>
+            <span>+</span>
+          </div>
+
+          <h2>ELEGANT APARTMENTS</h2>
+        </div>
+
+        <div class="counter">
+          <div class="count">
+            <div class="num" data-value="950">0</div>
+            <span>+</span>
+          </div>
+          <h2>LUXURY HOUSES</h2>
+        </div>
+
+        <div class="counter">
+          <div class="count">
+            <div class="num" data-value="18">0</div>
+            <span>K+</span>
+          </div>
+
+          <h2>SATISFIED GUESTS</h2>
+        </div>
+        <div class="counter">
+          <div class="count">
+            <div class="num" data-value="5">0</div>
+            <span>K+</span>
+          </div>
+
+          <h2>HAPPY OWNERS</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- start about  -->
+    <div class="about-section">
+      <div class="cont">
+        <div class="title">
+          <div class="title-shadow">ABOUT</div>
+          <h1>About Us</h1>
+        </div>
+
+        <div class="about-upper-cont">
+          <p>
+            We are a real estate firm with over 20 years of expertise, and our
+            main goal is to provide amazing locations to our partners.
+          </p>
+          <a href="" class="yellow-btn">Learn More</a>
+        </div>
+
+        <div class="img-cont">
+          <div class="img" id="about-img-left">
+            <img class="border-radius" src="images/about_1_1.jpg" alt="" />
+          </div>
+          <div class="img" id="about-img-right">
+            <img class="border-radius" src="images/about_1_2.png" alt="" />
+          </div>
+        </div>
+
+        <div class="about-lower-cont">
+          <p>
+            All-inclusive real estate services to facilitate the easy and
+            confident purchase, sale, and management of your properties.
+          </p>
+
+          <div class="right">
+            <img
+              src="images/woman-showing-with-one-hand-mini-house-real-state-concept-ai-generative_123827-24098.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services section  -->
+    <section class="services-section">
+      <div class="cont">
+        <div class="title">
+          <div class="title-shadow">SERVICES</div>
+          <h1>Our Services</h1>
+        </div>
+
+        <div class="cards-cont">
+          <div class="cards cd-1">
+            <div class="icon">
+              <img src="images/service-icon1-1.png" alt="" />
+            </div>
+            <h2>Property Valuation</h2>
+            <p>
+              All-inclusive real estate services to facilitate the easy and
+              confident purchase, sale, and management of your properties.
+            </p>
+          </div>
+
+          <div class="cards cd-2">
+            <div class="icon">
+              <img src="images/service-icon1-2.png" alt="" />
+            </div>
+            <h2>Property Management</h2>
+            <p>
+              Business consulting involves providing expert advice and services
+              to real estate improve performance services and achieve.
+            </p>
+          </div>
+
+          <div class="cards cd-3">
+            <div class="icon">
+              <img src="images/service-icon1-3.png" alt="" />
+            </div>
+            <h2>Invest Opportunities</h2>
+            <p>
+              Real estate services facilitate the easy and confident purchase,
+              sale, and management of your properties experiencing growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start projects  -->
+    <section class="projects-section">
+      <div class="cont">
+        <div class="title">
+          <div class="title-shadow">PROJECTS</div>
+          <h1>
+            Discover Modern Living <br />
+            At RooFort Residence.
+          </h1>
+        </div>
+
+        <div class="projects-cont">
+          <div class="left">
+            <p>
+              Residence takes advantage of abundant sunlight by incorporating
+              solar panels into its architecture.
+            </p>
+            <a href="#" class="yellow-btn">Explore More</a>
+          </div>
+
+          <div class="right">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide slider-cont"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="over-1 over"
+                    src="images/project_shape1_1.png"
+                    alt=""
+                  />
+
+                  <img
+                    src="images/project_1_1.png"
+                    class="d-block w-100"
+                    alt=""
+                  />
+                  <div class="arrow-1 arrow">
+                    <img src="images/arrow-right.svg" alt="" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="over" src="images/project_shape1_1.png" alt="" />
+                  <img
+                    src="images/project_1_2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="arrow">
+                    <img src="images/arrow-right.svg" alt="" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="over" src="images/project_shape1_1.png" alt="" />
+
+                  <img
+                    src="images/project_1_3.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="arrow">
+                    <img src="images/arrow-right.svg" alt="" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="over" src="images/project_shape1_1.png" alt="" />
+
+                  <img
+                    src="images/project_1_1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="arrow">
+                    <img src="images/arrow-right.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button> -->
+              <!-- <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- listing section  -->
+    <section class="listing">
+      <div class="cont">
+        <div class="title">
+          <div class="title-shadow">LISTING</div>
+          <h1>Featured Property</h1>
+        </div>
+
+        <div class="list-upper-cont">
+          <p>
+            We are a real estate firm with over 20 years of expertise, and our
+            main goal is to provide amazing locations to our partners and
+            clients.
+          </p>
+          <a href="" class="yellow-btn">Learn More</a>
+        </div>
+
+        <div class="list-card">
+          <div class="id">ID-2050</div>
+          <div class="txt">
+            <div class="status">Rent</div>
+            <div class="name">Villa Archetype</div>
+            <p class="description">
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+            <div class="price">
+              <span class="dollar">$1,360.00</span>
+              <span class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span>3.5</span>
+              </span>
+            </div>
+            <div class="details">
+              <div class="bed">
+                <img src="images/bed.svg" alt="" />
+                <span>Bed 6</span>
+              </div>
+
+              <div class="bath">
+                <img src="images/bath.svg" alt="" />
+                <span>Bath 2</span>
+              </div>
+
+              <div class="area">
+                <img src="images/area.svg" alt="" />
+                <span>1530 sqft</span>
+              </div>
+            </div>
+            <div class="white-btn">
+              <span>Details</span>
+              <img src="images/arrow-right.svg" alt="" />
+            </div>
+          </div>
+          <div class="img border-radius">
+            <img
+              class="border-radius"
+              src="images/property-s-1-9-416x360.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="img border-radius">
+            <img
+              class="border-radius"
+              src="images/property-s-1-5-416x360.png"
+              alt=""
+            />
+          </div>
+          <div class="id">ID-2041</div>
+          <div class="txt">
+            <div class="status">Resort</div>
+            <div class="name">Virgin Vineyard House</div>
+            <p class="description">
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+            <div class="price">
+              <span class="dollar">$798.00</span>
+              <span class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span>4.5</span>
+              </span>
+            </div>
+            <div class="details">
+              <div class="bed">
+                <img src="images/bed.svg" alt="" />
+                <span>Bed 3</span>
+              </div>
+
+              <div class="bath">
+                <img src="images/bath.svg" alt="" />
+                <span>Bath 2</span>
+              </div>
+
+              <div class="area">
+                <img src="images/area.svg" alt="" />
+                <span>1530 sqft</span>
+              </div>
+            </div>
+            <div class="white-btn">
+              <span>Details</span>
+              <img src="images/arrow-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="id">ID-249</div>
+          <div class="txt">
+            <div class="status">Apartment</div>
+            <div class="name">Apartments Auckland</div>
+            <p class="description">
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+            <div class="price">
+              <span class="dollar">$499.22</span>
+              <span class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </span>
+            </div>
+            <div class="details">
+              <div class="bed">
+                <img src="images/bed.svg" alt="" />
+                <span>Bed 5</span>
+              </div>
+
+              <div class="bath">
+                <img src="images/bath.svg" alt="" />
+                <span>Bath 2</span>
+              </div>
+
+              <div class="area">
+                <img src="images/area.svg" alt="" />
+                <span>1560 sqft</span>
+              </div>
+            </div>
+            <div class="white-btn">
+              <span>Details</span>
+              <img src="images/arrow-right.svg" alt="" />
+            </div>
+          </div>
+          <div class="img border-radius">
+            <img
+              class="border-radius"
+              src="images/property-s-1-5-416x360.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="img border-radius">
+            <img
+              class="border-radius"
+              src="images/property-s-1-1-416x360.png"
+              alt=""
+            />
+          </div>
+          <div class="id">ID-81</div>
+          <div class="txt">
+            <div class="status">Apartment</div>
+            <div class="name">Holiday Luxury House</div>
+            <p class="description">
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+            <div class="price">
+              <span class="dollar">$2,525.00</span>
+              <span class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span>4.5</span>
+              </span>
+            </div>
+            <div class="details">
+              <div class="bed">
+                <img src="images/bed.svg" alt="" />
+                <span>Bed 4</span>
+              </div>
+
+              <div class="bath">
+                <img src="images/bath.svg" alt="" />
+                <span>Bath 2</span>
+              </div>
+
+              <div class="area">
+                <img src="images/area.svg" alt="" />
+                <span>1500 sqft</span>
+              </div>
+            </div>
+            <div class="white-btn">
+              <span>Details</span>
+              <img src="images/arrow-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="list-card">
+          <div class="id">ID-79</div>
+          <div class="txt">
+            <div class="status">Resort</div>
+            <div class="name">Toronto Townhouse</div>
+            <p class="description">
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+            <div class="price">
+              <span class="dollar">$8,884.00</span>
+              <span class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+                <span>3.0</span>
+              </span>
+            </div>
+            <div class="details">
+              <div class="bed">
+                <img src="images/bed.svg" alt="" />
+                <span>Bed 5</span>
+              </div>
+
+              <div class="bath">
+                <img src="images/bath.svg" alt="" />
+                <span>Bath 3</span>
+              </div>
+
+              <div class="area">
+                <img src="images/area.svg" alt="" />
+                <span>1200 sqft</span>
+              </div>
+            </div>
+            <div class="white-btn">
+              <span>Details</span>
+              <img src="images/arrow-right.svg" alt="" />
+            </div>
+          </div>
+          <div class="img border-radius">
+            <img
+              class="border-radius"
+              src="images/property-s-1-2-416x360.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start footer  -->
+    <footer>
+      <div class="cont foot">
+        <div class="left">
+          <div class="logo-cont">
+            <!-- <div class="logo">
+              <h1>
+                <span id="l1">R</span>
+                <span id="l2">O</span>
+                <span id="l3">O</span>
+                <span id="l5">F</span>
+                <span id="l6">O</span>
+                <span id="l7">R</span>
+                <span id="l8">T</span>
+              </h1>
+              <img src="images/logo-removebg-preview.png" alt="" />
+            </div> -->
+            <p>
+              Rapidiously myocardinate cross-platform intellectual capital
+              model. Appropriately create interactive infrastructures
+            </p>
+          </div>
+          <div class="social">
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook-f icon"></i>
+            </div>
+            <div class="social-icon">
+              <i class="fa-brands fa-twitter icon"></i>
+            </div>
+            <div class="social-icon">
+              <i class="fa-brands fa-instagram icon"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <h1>Get In Touch</h1>
+          <div class="contact-cont">
+            <div class="contact-icons">
+              <div class="icon-cont">
+                <i class="fa-solid fa-phone icon"></i>
+              </div>
+              <p>+1 234 567 8901</p>
+            </div>
+            <div class="contact-icons">
+              <div class="icon-cont">
+                <i class="fa-solid fa-envelope icon"></i>
+              </div>
+              <p>info@rooffortresidence.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="cont">
+          <p>CopyRight &copy; 2024 RooFort Residence. All Rights Reserved.</p>
+          <div class="foot-links">
+            <a href="">Terms of services</a>
+            <a href="">Privacy policy</a>
+            <a href="">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- start scripts  -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/anim.js"></script>
+    <script src="js/dropDown.js"></script>
+    <script src="js/projects.js"></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font font-awesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

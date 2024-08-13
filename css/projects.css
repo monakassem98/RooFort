@@ -1,0 +1,128 @@
+.projects-section {
+  background-image: url(project-bg-1-1-1.png);
+  margin-top: 100px;
+  position: relative;
+  padding-bottom: 30px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 100px;
+  }
+  .cont {
+    position: relative;
+    z-index: 77777;
+  }
+  .title {
+    h1 {
+      bottom: -30px;
+      line-height: 1;
+      font-size: 40px;
+      @media (max-width: 992px) {
+        font-size: 25px;
+        bottom: -20px;
+      }
+    }
+  }
+}
+
+.projects-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .left {
+    width: 55%;
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+
+    p {
+      margin-top: -100px;
+      @media (max-width: 992px) {
+        margin-top: -40px;
+      }
+      @media (max-width: 768px) {
+        margin-top: -30px;
+      }
+    }
+    .yellow-btn {
+      display: inline-block;
+      margin-top: 50px;
+      @media (max-width: 992px) {
+        margin-top: 20px;
+      }
+    }
+  }
+  .right {
+    width: 40%;
+    overflow-x: hidden;
+    height: 71vh;
+    overflow-y: visible;
+    @media (max-width: 992px) {
+      width: 50%;
+      margin-top: 50px;
+    }
+    @media (max-width: 768px) {
+      width: 70%;
+    }
+  }
+}
+
+.carousel-indicators {
+  margin-bottom: -3rem;
+  .active {
+    background-color: var(--yellow);
+  }
+}
+.carousel-inner {
+  overflow: visible;
+  display: flex;
+  gap: 20px;
+}
+.carousel-item {
+  position: relative;
+}
+.over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
+  /* z-index: -1; */
+  display: none;
+}
+.arrow {
+  position: absolute;
+  bottom: -20px;
+  z-index: 9000000;
+  width: 40px;
+  height: 40px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* .arrow:hover .over {
+  display: block;
+  /* z-index: 999999999; */
+} */
