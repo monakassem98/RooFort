@@ -81,6 +81,118 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// listing section
+let listCardOne = document.querySelector(".list-one");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 2900) {
+    listCardOne.style.transform = "translateX(0%)";
+    listCardOne.style.transition = "0.8s";
+  } else {
+    listCardOne.style.transform = "translateX(130%)";
+    listCardOne.style.transition = "0.8s";
+  }
+});
 
-// project section 
- 
+let listCardTwo = document.querySelector(".list-two");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 3600) {
+    listCardTwo.style.transform = "translateX(0%)";
+    listCardTwo.style.transition = "0.8s";
+  } else {
+    listCardTwo.style.transform = "translateX(-130%)";
+    listCardTwo.style.transition = "0.8s";
+  }
+});
+
+let listCardThree = document.querySelector(".list-three");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 4000) {
+    listCardThree.style.transform = "translateX(0%)";
+    listCardThree.style.transition = "0.8s";
+  } else {
+    listCardThree.style.transform = "translateX(130%)";
+    listCardThree.style.transition = "0.8s";
+  }
+});
+
+
+let listCardTFour = document.querySelector(".list-four");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 4500) {
+    listCardTFour.style.transform = "translateX(0%)";
+    listCardTFour.style.transition = "0.8s";
+  } else {
+    listCardTFour.style.transform = "translateX(-130%)";
+    listCardTFour.style.transition = "0.8s";
+  }
+});
+
+let listCardFive = document.querySelector(".list-five");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 5000) {
+    listCardFive.style.transform = "translateX(0%)";
+    listCardFive.style.transition = "0.8s";
+  } else {
+    listCardFive.style.transform = "translateX(130%)";
+    listCardFive.style.transition = "0.8s";
+  }
+});
+
+// start team 
+let teamOne = document.querySelector(".team-one");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 5900) {
+    teamOne.style.transform = "translateX(0%)";
+    teamOne.style.transition = "0.8s";
+  } else {
+    teamOne.style.transform = "translateX(-130%)";
+    teamOne.style.transition = "0.8s";
+  }
+});
+
+let teamTwo = document.querySelector(".team-two");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 5900) {
+    teamTwo.style.transform = "translateY(0%)";
+    teamTwo.style.transition = "0.8s";
+  } else {
+    teamTwo.style.transform = "translateY(130%)";
+    teamTwo.style.transition = "0.8s";
+  }
+});
+
+let teamThree = document.querySelector(".team-three");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 5900) {
+    teamThree.style.transform = "translateX(0%)";
+    teamThree.style.transition = "0.8s";
+  } else {
+    teamThree.style.transform = "translateX(130%)";
+    teamThree.style.transition = "0.8s";
+  }
+});
+
+
+
+// start consulting 
+let consLeft = document.querySelector(".cons-left");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 6400) {
+    consLeft.style.transform = "translateX(0%)";
+    consLeft.style.transition = "0.8s";
+  } else {
+    consLeft.style.transform = "translateX(-130%)";
+    consLeft.style.transition = "0.8s";
+  }
+});
+
+let consRight = document.querySelector(".cons-right");
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 6400) {
+    consRight.style.transform = "translateX(0%)";
+    consRight.style.transition = "0.8s";
+  } else {
+    consRight.style.transform = "translateX(130%)";
+    consRight.style.transition = "0.8s";
+  }
+});

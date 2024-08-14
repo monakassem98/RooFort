@@ -1,6 +1,7 @@
 .consulting {
   margin-top: 100px;
   margin-bottom: 100px;
+  overflow: hidden;
   .cont {
     display: flex;
     justify-content: space-between;
@@ -63,4 +64,13 @@
       }
     }
   }
+}
+
+
+.cons-left{
+  transform: translateX(-130%);
+}
+
+.cons-right{
+  transform: translateX(130%);
 }

@@ -1,5 +1,6 @@
 .listing {
   padding-bottom: 30px;
+  overflow: hidden;
   .list-upper-cont {
     display: flex;
     justify-content: space-between;
@@ -133,4 +134,25 @@
       }
     }
   }
+}
+
+
+.list-one{
+  transform: translateX(130%);
+}
+
+.list-two{
+  transform: translateX(-130%);
+}
+
+.list-three{
+  transform: translateX(130%);
+}
+
+.list-four{
+  transform: translateX(-130%);
+}
+
+.list-five{
+  transform: translateX(130%);
 }
