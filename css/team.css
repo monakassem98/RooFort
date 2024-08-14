@@ -1,0 +1,126 @@
+.team {
+  margin-bottom: 30px;
+  .team-upper-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    @media (max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    p {
+      width: 47%;
+      @media (max-width: 992px) {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .team-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+    .team-cards {
+      position: relative;
+      width: calc(90% / 3);
+      @media (max-width: 1024px) {
+        width: calc(90% / 2);
+      }
+
+      @media (max-width: 768px) {
+        width: 75%;
+      }
+      .img {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .team-mask {
+        background-color: rgba(53, 52, 52, 0.726);
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        /* top: 50%; */
+        transform: translate(-50%, -10%);
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 90%;
+        height: fit-content;
+        border-radius: 15px;
+
+        &:hover {
+          height: 80%;
+        }
+
+        &:hover .invisible-icons {
+          display: inline-flex;
+        }
+        .visible-det {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+
+          .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--yellow);
+            font-size: 24px;
+            color: black;
+
+            .phone {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .invisible-icons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          display: none;
+
+          .social-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.795);
+            @media (max-width: 768px) {
+                width: 30px;
+                height: 30px;
+            }
+            i {
+              @media (max-width: 768px) {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

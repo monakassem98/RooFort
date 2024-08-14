@@ -1,0 +1,161 @@
+.testimonials {
+  background-color: var(--gray);
+  color: black;
+  position: relative;
+  padding: 20px 0px 100px 0px;
+
+  @media (max-width: 768px) {
+    height: 70vh;
+  }
+  .test-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* @media (max-width: 1270px) {
+      flex-direction: column-reverse;
+    } */
+  }
+
+  .title {
+    @media (max-width: 1270px) {
+      text-align: center;
+      h1 {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .swiper-cont {
+    @media (max-width: 768px) {
+      min-width: 400px;
+      text-align: center;
+      margin: auto;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      margin-top: 50px;
+    }
+    position: absolute;
+    top: 40%;
+    p {
+      width: 500px;
+      @media (max-width: 768px) {
+        max-width: 370px;
+        margin: auto;
+      }
+      @media (max-width: 420px) {
+        width: 300px;
+      }
+    }
+  }
+
+  .test-card {
+    text-align: left;
+    display: flex;
+  }
+
+  .rate {
+    margin-bottom: 40px;
+    .fa-star {
+      color: goldenrod;
+    }
+  }
+
+  p {
+    line-height: 2;
+    font-size: 24px;
+    @media (max-width: 1078px) {
+      font-size: 16px;
+      max-width: 70%;
+    }
+  }
+
+  .client {
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+
+    @media (max-width: 768px) {
+      margin-top: -40px;
+    }
+
+    .info {
+      @media (max-width: 768px) {
+        margin-top: 70px;
+      }
+
+      @media (max-width: 420px) {
+        transform: translateX(-50%);
+        left: 50%;
+        position: relative;
+      }
+      display: flex;
+      align-items: center;
+      h4 {
+        margin-left: 20px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .qoute {
+      @media (max-width: 768px) {
+        display: none;
+      }
+      width: 70px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .right {
+    position: relative;
+    width: 40%;
+    @media (max-width: 1078px) {
+      .img-1 {
+        width: 300px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+    .img-2 {
+      @media (max-width: 1078px) {
+        width: 100%;
+        right: -30%;
+        img {
+          width: 200px;
+        }
+      }
+
+      position: absolute;
+      right: -10%;
+      bottom: -10%;
+      animation-name: up-down;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  }
+
+  .left {
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

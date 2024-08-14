@@ -90,11 +90,21 @@
         border-bottom: 1px solid rgba(128, 128, 128, 0.733);
         padding-bottom: 30px;
         margin-top: 30px;
+
         div {
           width: calc(90% / 3);
+          @media (max-width: 494px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+          }
         }
         img {
           margin-right: 10px;
+          @media (max-width: 494px) {
+            width: 40px;
+          }
         }
 
         .bed {

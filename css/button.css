@@ -1,14 +1,13 @@
-.yellow-btn{
-    padding: 10px 40px 10px 20px;
-    background-color: var(--yellow);
-    color: #021526;
-    border: none;
-    /* padding: 5px 10px; */
-    border-radius: 2px;
-    border-top-right-radius: 10px;
-
-    &:hover {
-        border-top-right-radius: 2px;
-
-      }
+.yellow-btn {
+  padding: 10px 40px 10px 20px;
+  background-color: var(--yellow);
+  color: #021526;
+  border: none;
+  /* padding: 5px 10px; */
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    border-top-right-radius: 2px;
+  }
 }
